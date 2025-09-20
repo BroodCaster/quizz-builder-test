@@ -50,7 +50,7 @@ Create environment files for both frontend and backend:
 #### Frontend (.env.local)
 
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:3001/api/
+NEXT_PUBLIC_API_URL=http://localhost:3001/
 ```
 
 #### Backend (.env)
@@ -80,7 +80,7 @@ npx prisma generate
 
 ```bash
 cd backend
-npm run dev
+npm run start
 
 # Backend will run on http://localhost:3001
 ```
